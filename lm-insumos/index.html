@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LM INSUMOS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header-container">
+  <img src="assets/logo.png" class="logo" alt="LM INSUMOS">
+  <div>
+    <h1>LM INSUMOS</h1>
+    <p>Insumos para hogar, ferretería y lavaderos</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#productos">Productos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Todo en insumos para tu hogar y negocio</h2>
+    <p>Productos de limpieza, ferretería y control de plagas</p>
+
+    <a href="https://wa.me/5492616920257" target="_blank" class="btn hero-btn">
+      Consultar por WhatsApp
+    </a>
+  </div>
+</section>
+
+<section id="productos">
+  <h2>Productos</h2>
+
+  <!-- BUSCADOR -->
+  <input type="text" id="buscador" class="buscador" placeholder="Buscar productos...">
+
+  <!-- FILTROS -->
+  <div class="filtros">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('limpieza')">Limpieza</button>
+    <button onclick="filtrar('piscina')">Piscina</button>
+    <button onclick="filtrar('plagas')">Plagas</button>
+  </div>
+
+  <div class="grid">
+
+    <div class="card piscina">
+      <img src="assets/alguicida.jpeg">
+      <h3>Alguicida</h3>
+      <p>Elimina algas en piscinas.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Alguicida" class="btn">Consultar</a>
+    </div>
+
+    <div class="card plagas">
+      <img src="assets/cipermetrina_2litros.jpeg">
+      <h3>Cipermetrina 2L</h3>
+      <p>Insecticida de uso doméstico.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Cipermetrina%202L" class="btn">Consultar</a>
+    </div>
+
+    <div class="card plagas">
+      <img src="assets/cipermetrina_20litros.jpeg">
+      <h3>Cipermetrina 20L</h3>
+      <p>Uso intensivo.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Cipermetrina%2020L" class="btn">Consultar</a>
+    </div>
+
+    <div class="card piscina">
+      <img src="assets/cloro_pastillas.jpeg">
+      <h3>Cloro Pastillas</h3>
+      <p>Desinfección de piscinas.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Cloro%20Pastillas" class="btn">Consultar</a>
+    </div>
+
+    <div class="card piscina">
+      <img src="assets/floculante.jpeg">
+      <h3>Floculante</h3>
+      <p>Clarifica el agua.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Floculante" class="btn">Consultar</a>
+    </div>
+
+    <div class="card limpieza">
+      <img src="assets/desengrasante_alcalino.jpeg">
+      <h3>Desengrasante</h3>
+      <p>Elimina grasa pesada.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Desengrasante" class="btn">Consultar</a>
+    </div>
+
+    <div class="card limpieza">
+      <img src="assets/soda_caustica.jpeg">
+      <h3>Soda Cáustica</h3>
+      <p>Limpieza profunda.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Soda" class="btn">Consultar</a>
+    </div>
+
+    <div class="card plagas">
+      <img src="assets/pulgones.jpeg">
+      <h3>Control de Pulgones</h3>
+      <p>Protege plantas.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Pulgones" class="btn">Consultar</a>
+    </div>
+
+    <div class="card limpieza">
+      <img src="assets/destapa_canerias.jpeg">
+      <h3>Destapa Cañerías</h3>
+      <p>Desobstrucción rápida.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Ca%C3%B1erias" class="btn">Consultar</a>
+    </div>
+
+    <div class="card piscina">
+      <img src="assets/sulfato_cobre.jpeg">
+      <h3>Sulfato de Cobre</h3>
+      <p>Control de algas.</p>
+      <a href="https://wa.me/5492616920257?text=Consulta%20Sulfato" class="btn">Consultar</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Lunes a Sábados 8 a 16 hs</p>
+
+  <a href="https://wa.me/5492616920257" class="btn">WhatsApp</a>
+</section>
+
+<a href="https://wa.me/5492616920257" class="whatsapp">W</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
